@@ -107,7 +107,6 @@ class ChatbotService:
             # Get relevant context from ChromaDB
             context_results = self.get_related_faqs(query, language)
             context = "\n".join(context_results['documents'][0]) if context_results['documents'] else ""
-            
             # Prepare the prompt
             prompt = f"""As a helpful assistant for NigedEase, an Ethiopian business management platform, answer the following question.
             Use this context if relevant: {context}

@@ -1,8 +1,9 @@
 import requests
 import os
-GROK_API_KEY  = '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'
+# GROK_API_KEY  = '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'
 def call_grok(query):
     api_key = os.getenv("GROK_API_KEY")
+    print(f"API Key: {api_key}")
     url = os.getenv("GROK_API_URL")
     headers = {"Authorization": f"Bearer {api_key}"}
     data = {"query": query}

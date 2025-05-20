@@ -2,6 +2,7 @@ import os
 from pinecone import Pinecone
 from sentence_transformers import SentenceTransformer
 from dotenv import load_dotenv
+import json
 
 load_dotenv()
 
@@ -16,23 +17,9 @@ def load_faqs():
     model = SentenceTransformer("all-MiniLM-L6-v2")
     
     # Sample FAQs - replace these with your actual FAQs
-    faqs = [
-        {
-            "id": "1",
-            "question": "What services do you offer?",
-            "answer": "We offer a wide range of services including AI-powered chatbots, custom software development, and technical consulting."
-        },
-        {
-            "id": "2",
-            "question": "How can I get started?",
-            "answer": "You can get started by contacting our sales team or filling out the contact form on our website."
-        },
-        {
-            "id": "3",
-            "question": "What is your pricing model?",
-            "answer": "Our pricing is based on your specific needs and requirements. Please contact us for a custom quote."
-        }
-    ]
+    faqs = 'data/faqs.json'
+    with open(faqs, 'r', encoding='utf-8') as f:
+        faqs = json.load(f)
     
     # Prepare vectors for Pinecone
     vectors = []

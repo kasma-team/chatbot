@@ -1,5 +1,8 @@
 from flask import Flask, render_template, request, jsonify, session
 from api.chatbot_service import ChatbotService
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = Flask(__name__)
 app.secret_key = 'nigedease_secret_key'  # Change this in production
@@ -23,6 +26,7 @@ def get_settings():
 
 @app.route('/api/chat', methods=['POST'])
 def chat():
+    print(111)
     data = request.json
     user_message = data.get('message', '')
     language = data.get('language', session.get('language', 'en'))
