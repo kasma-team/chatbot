@@ -1,0 +1,12 @@
+flask==2.3.3
+sentence-transformers==2.2.2
+pinecone-client==3.0.0
+requests==2.31.0
+python-dotenv==1.0.0
+groq==0.4.2
+deep-translator==1.11.4
+numpy>=1.26.0
+setuptools>=69.0.0
+wheel>=0.42.0
+
+gunicorn

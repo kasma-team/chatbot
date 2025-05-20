@@ -1,0 +1,73 @@
+[
+  {
+    "id": "1",
+    "title": "What is NigedEase?",
+    "content": "NigedEase is an AI-powered business management platform developed by Addis Ababa Science and Technology University. It helps Ethiopian businesses manage inventory, sales, and finances efficiently, replacing outdated manual systems with a centralized, cloud-based solution."
+  },
+  {
+    "id": "2",
+    "title": "Key Features",
+    "content": "NigedEase offers real-time inventory tracking, sales monitoring, financial forecasting, receipt validation, and multi-branch management. It supports role-based access for Super Admins, Admins, Branch Managers, and Employees, ensuring secure and tailored access to data."
+  },
+  {
+    "id": "3",
+    "title": "Benefits for Ethiopian Businesses",
+    "content": "NigedEase reduces manual record-keeping, minimizes errors, and saves time. Its AI features, like receipt validation and sales forecasting, help businesses make data-driven decisions and improve scalability across multiple branches."
+  },
+  {
+    "id": "4",
+    "title": "Receipt Validation",
+    "content": "NigedEase validates receipts by cross-checking them with sales and inventory records. Businesses can upload receipt images or enter details manually, and the system flags discrepancies for review."
+  },
+  {
+    "id": "5",
+    "title": "Multi-Branch Support",
+    "content": "NigedEase allows businesses with multiple branches to sync data in real-time. Each branch can manage its inventory and sales, while admins oversee all branches from a central dashboard."
+  },
+  {
+    "id": "6",
+    "title": "AI-Powered Automation",
+    "content": "The platform uses AI to automate tasks like low-stock alerts, financial projections, and customer support via a chatbot. This reduces manual work and helps businesses focus on growth."
+  },
+  {
+    "id": "7",
+    "title": "Who Can Use NigedEase?",
+    "content": "NigedEase is designed for small and medium-sized businesses in Ethiopia, such as retail shops, restaurants, and startups, looking to modernize their operations."
+  },
+    {
+      "id": "8",
+      "title": "Do I Need Technical Skills to Use NigedEase?",
+      "content": "No, NigedEase is designed to be user-friendly for all business owners, even if you have no technical background. The dashboard is simple, and our support team is always available to help you get started."
+    },
+    {
+      "id": "9",
+      "title": "Can I Access NigedEase on My Phone?",
+      "content": "Yes! NigedEase is mobile-friendly. You can access it from your smartphone or tablet to check sales, manage inventory, and monitor your business anytime, anywhere."
+    },
+    {
+      "id": "10",
+      "title": "Is My Business Data Secure?",
+      "content": "Absolutely. NigedEase uses modern encryption and cloud security practices to keep your business data safe. Role-based access ensures that only the right people see the right information."
+    },
+    {
+      "id": "11",
+      "title": "How Is NigedEase Different from Other Systems?",
+      "content": "NigedEase is tailored for Ethiopian businesses, with built-in support for local needs like receipt validation, branch-level tracking, and AI-based forecasting. It's more than just software — it’s a smart assistant for your business."
+    },
+    {
+      "id": "12",
+      "title": "Can I Try NigedEase Before Committing?",
+      "content": "Yes. You can explore a demo or free trial to understand how it works before fully signing up. Contact our support team to request access."
+    },
+    {
+      "id": "13",
+      "title": "Does NigedEase Work Offline?",
+      "content": "NigedEase is a cloud-based platform, so it requires an internet connection for most features. However, we are exploring offline capabilities for essential tasks in the future."
+    },
+    {
+      "id": "14",
+      "title": "How Do I Get Started with NigedEase?",
+      "content": "Simply visit our website and sign up for an account. Our team will help you onboard, import your data, and set up your business profile. No complicated setup needed!"
+    }
+    
+] 
