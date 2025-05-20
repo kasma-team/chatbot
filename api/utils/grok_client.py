@@ -1,6 +1,5 @@
 import requests
 import os
-# GROK_API_KEY  = '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'
 def call_grok(query):
     api_key = os.getenv("GROK_API_KEY")
     print(f"API Key: {api_key}")
@@ -11,4 +10,4 @@ def call_grok(query):
     if response.status_code == 200:
         return response.json()["response"]
     else:
-        return "Sorry, I couldn’t process your request right now."
+        return "Sorry, I couldn’t process your request right now." 

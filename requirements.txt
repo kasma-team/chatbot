@@ -1,6 +1,5 @@
 Flask
 gunicorn
-sentence-transformers 
 pinecone-client
 chromadb
 deep-translator
