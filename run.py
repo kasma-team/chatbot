@@ -1,10 +1,14 @@
 from flask import Flask, render_template, request, jsonify, session
 from api.chatbot_service import ChatbotService
 from dotenv import load_dotenv
+from flask_cors import CORS
+
+
 
 load_dotenv()
 
 app = Flask(__name__)
+CORS(app, origins=["http://localhost:3000"])
 app.secret_key = 'nigedease_secret_key'  # Change this in production
 chatbot = ChatbotService()
 
