@@ -1,7 +1,8 @@
 Flask
 gunicorn
 pinecone-client
-chromadb
+faiss-cpu
+sentence-transformers
 deep-translator
 python-dotenv
 requests
