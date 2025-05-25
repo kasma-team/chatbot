@@ -5,4 +5,4 @@ faiss-cpu
 deep-translator
 python-dotenv
 requests
-flask-cors
+flask-cors 
