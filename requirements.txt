@@ -1,9 +1,8 @@
 Flask
 gunicorn
 pinecone-client
-faiss-cpu
+scikit-learn
 deep-translator
 python-dotenv
 requests
 flask-cors 
-sentence-transformers

@@ -1,8 +1,9 @@
 import os
 import json
 import numpy as np
-import faiss
-from sentence_transformers import SentenceTransformer
+import requests
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
 from deep_translator import GoogleTranslator
 from dotenv import load_dotenv
 from .database import Database
@@ -14,14 +15,13 @@ GROQ_API_URL = 'https://api.groq.com/openai/v1/chat/completions'
 
 class ChatbotService:
     def __init__(self):
-        # Initialize FAISS index and sentence transformer
-        self.model = SentenceTransformer('all-MiniLM-L6-v2')
-        self.dimension = 384  # dimension of the embeddings
-        self.index = faiss.IndexFlatL2(self.dimension)
+        # Initialize TF-IDF vectorizer
+        self.vectorizer = TfidfVectorizer()
         
         # Store documents and metadata
         self.documents = []
         self.metadata = []
+        self.document_vectors = None
         
         # Initialize translator
         self.translator = GoogleTranslator(source='en', target='am')
@@ -60,11 +60,8 @@ class ChatbotService:
                         'language': 'am'
                     })
             
-            # Generate embeddings
-            embeddings = self.model.encode(documents)
-            
-            # Add to FAISS index
-            self.index.add(np.array(embeddings).astype('float32'))
+            # Generate TF-IDF vectors
+            self.document_vectors = self.vectorizer.fit_transform(documents)
             
             # Store documents and metadata
             self.documents = documents
@@ -75,11 +72,14 @@ class ChatbotService:
             print(f"Error loading knowledge base: {str(e)}")
 
     def get_related_faqs(self, query, language='en', n=2):
-        # Generate query embedding
-        query_embedding = self.model.encode([query])
+        # Generate query vector
+        query_vector = self.vectorizer.transform([query])
         
-        # Search in FAISS index
-        distances, indices = self.index.search(np.array(query_embedding).astype('float32'), n)
+        # Calculate cosine similarity
+        similarities = cosine_similarity(query_vector, self.document_vectors).flatten()
+        
+        # Get top n similar documents
+        top_indices = similarities.argsort()[-n:][::-1]
         
         # Filter results by language and get documents
         results = {
@@ -87,7 +87,7 @@ class ChatbotService:
             'metadatas': []
         }
         
-        for idx in indices[0]:
+        for idx in top_indices:
             if idx < len(self.metadata) and self.metadata[idx]['language'] == language:
                 results['documents'].append(self.documents[idx])
                 results['metadatas'].append(self.metadata[idx])
