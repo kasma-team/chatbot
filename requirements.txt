@@ -2,7 +2,7 @@ Flask
 gunicorn
 pinecone-client
 faiss-cpu
-sentence-transformers
 deep-translator
 python-dotenv
 requests
+flask-cors
