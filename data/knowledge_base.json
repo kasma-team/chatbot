@@ -1,152 +1,152 @@
 [
   {
     "id": 1,
-    "question": "What is NigedEase?",
-    "answer": "NigedEase is an AI-powered business management platform developed by Addis Ababa Science and Technology University. It helps Ethiopian businesses manage inventory, sales, and finances efficiently, replacing outdated manual systems with a centralized, cloud-based solution."
+    "title": "What is NigedEase?",
+    "content": "NigedEase is an AI-powered business management platform developed by Addis Ababa Science and Technology University. It helps Ethiopian businesses manage inventory, sales, and finances efficiently, replacing outdated manual systems with a centralized, cloud-based solution."
   },
   {
     "id": 2,
-    "question": "Key Features",
-    "answer": "NigedEase offers real-time inventory tracking, sales monitoring, financial forecasting, receipt validation, and multi-branch management. It supports role-based access for Super Admins, Admins, Branch Managers, and Employees, ensuring secure and tailored access to data."
+    "title": "Key Features",
+    "content": "NigedEase offers real-time inventory tracking, sales monitoring, financial forecasting, receipt validation, and multi-branch management. It supports role-based access for Super Admins, Admins, Branch Managers, and Employees, ensuring secure and tailored access to data."
   },
   {
     "id": 3,
-    "question": "Benefits for Ethiopian Businesses",
-    "answer": "NigedEase reduces manual record-keeping, minimizes errors, and saves time. Its AI features, like receipt validation and sales forecasting, help businesses make data-driven decisions and improve scalability across multiple branches."
+    "title": "Benefits for Ethiopian Businesses",
+    "content": "NigedEase reduces manual record-keeping, minimizes errors, and saves time. Its AI features, like receipt validation and sales forecasting, help businesses make data-driven decisions and improve scalability across multiple branches."
   },
   {
     "id": 4,
-    "question": "Receipt Validation",
-    "answer": "NigedEase validates receipts by cross-checking them with sales and inventory records. Businesses can upload receipt images or enter details manually, and the system flags discrepancies for review."
+    "title": "Receipt Validation",
+    "content": "NigedEase validates receipts by cross-checking them with sales and inventory records. Businesses can upload receipt images or enter details manually, and the system flags discrepancies for review."
   },
   {
     "id": 5,
-    "question": "Multi-Branch Support",
-    "answer": "NigedEase allows businesses with multiple branches to sync data in real-time. Each branch can manage its inventory and sales, while admins oversee all branches from a central dashboard."
+    "title": "Multi-Branch Support",
+    "content": "NigedEase allows businesses with multiple branches to sync data in real-time. Each branch can manage its inventory and sales, while admins oversee all branches from a central dashboard."
   },
   {
     "id": 6,
-    "question": "AI-Powered Automation",
-    "answer": "The platform uses AI to automate tasks like low-stock alerts, financial projections, and customer support via a chatbot. This reduces manual work and helps businesses focus on growth."
+    "title": "AI-Powered Automation",
+    "content": "The platform uses AI to automate tasks like low-stock alerts, financial projections, and customer support via a chatbot. This reduces manual work and helps businesses focus on growth."
   },
   {
     "id": 7,
-    "question": "Who Can Use NigedEase?",
-    "answer": "NigedEase is designed for small and medium-sized businesses in Ethiopia, such as retail shops, restaurants, and startups, looking to modernize their operations."
+    "title": "Who Can Use NigedEase?",
+    "content": "NigedEase is designed for small and medium-sized businesses in Ethiopia, such as retail shops, restaurants, and startups, looking to modernize their operations."
   },
   {
     "id": 8,
-    "question": "Do I Need Technical Skills to Use NigedEase?",
-    "answer": "No, NigedEase is designed to be user-friendly for all business owners, even if you have no technical background. The dashboard is simple, and our support team is always available to help you get started."
+    "title": "Do I Need Technical Skills to Use NigedEase?",
+    "content": "No, NigedEase is designed to be user-friendly for all business owners, even if you have no technical background. The dashboard is simple, and our support team is always available to help you get started."
   },
   {
     "id": 9,
-    "question": "Can I Access NigedEase on My Phone?",
-    "answer": "Yes! NigedEase is mobile-friendly. You can access it from your smartphone or tablet to check sales, manage inventory, and monitor your business anytime, anywhere."
+    "title": "Can I Access NigedEase on My Phone?",
+    "content": "Yes! NigedEase is mobile-friendly. You can access it from your smartphone or tablet to check sales, manage inventory, and monitor your business anytime, anywhere."
   },
   {
     "id": 10,
-    "question": "Is My Business Data Secure?",
-    "answer": "Absolutely. NigedEase uses modern encryption and cloud security practices to keep your business data safe. Role-based access ensures that only the right people see the right information."
+    "title": "Is My Business Data Secure?",
+    "content": "Absolutely. NigedEase uses modern encryption and cloud security practices to keep your business data safe. Role-based access ensures that only the right people see the right information."
   },
   {
     "id": 11,
-    "question": "How Is NigedEase Different from Other Systems?",
-    "answer": "NigedEase is tailored for Ethiopian businesses, with built-in support for local needs like receipt validation, branch-level tracking, and AI-based forecasting. It's more than just software — it’s a smart assistant for your business."
+    "title": "How Is NigedEase Different from Other Systems?",
+    "content": "NigedEase is tailored for Ethiopian businesses, with built-in support for local needs like receipt validation, branch-level tracking, and AI-based forecasting. It's more than just software — it’s a smart assistant for your business."
   },
   {
     "id": 12,
-    "question": "Can I Try NigedEase Before Committing?",
-    "answer": "Yes. You can explore a demo or free trial to understand how it works before fully signing up. Contact our support team to request access."
+    "title": "Can I Try NigedEase Before Committing?",
+    "content": "Yes. You can explore a demo or free trial to understand how it works before fully signing up. Contact our support team to request access."
   },
   {
     "id": 13,
-    "question": "Does NigedEase Work Offline?",
-    "answer": "NigedEase is a cloud-based platform, so it requires an internet connection for most features. However, we are exploring offline capabilities for essential tasks in the future."
+    "title": "Does NigedEase Work Offline?",
+    "content": "NigedEase is a cloud-based platform, so it requires an internet connection for most features. However, we are exploring offline capabilities for essential tasks in the future."
   },
   {
     "id": 14,
-    "question": "How Do I Get Started with NigedEase?",
-    "answer": "Simply visit our website and sign up for an account. Our team will help you onboard, import your data, and set up your business profile. No complicated setup needed!"
+    "title": "How Do I Get Started with NigedEase?",
+    "content": "Simply visit our website and sign up for an account. Our team will help you onboard, import your data, and set up your business profile. No complicated setup needed!"
   },
   {
     "id": 15,
-    "question": "Team Lead",
-    "answer": "Melkamu Tesema leads the team behind NigedEase. He is responsible for guiding the technical vision, coordinating cross-functional efforts, and ensuring timely delivery of features."
+    "title": "Team Lead",
+    "content": "Melkamu Tesema leads the team behind NigedEase. He is responsible for guiding the technical vision, coordinating cross-functional efforts, and ensuring timely delivery of features."
   },
   {
     "id": 16,
-    "question": "Full Stack Developer",
-    "answer": "Ahmed is in charge of building both the backend and frontend of NigedEase. He focuses on delivering a smooth and responsive experience across desktop and mobile platforms using modern web technologies."
+    "title": "Full Stack Developer",
+    "content": "Ahmed is in charge of building both the backend and frontend of NigedEase. He focuses on delivering a smooth and responsive experience across desktop and mobile platforms using modern web technologies."
   },
   {
     "id": 17,
-    "question": "Backend Developer",
-    "answer": "Mahfouz handles the server-side logic and database integration of NigedEase. He ensures reliable data flow, robust APIs, and secure user authentication."
+    "title": "Backend Developer",
+    "content": "Mahfouz handles the server-side logic and database integration of NigedEase. He ensures reliable data flow, robust APIs, and secure user authentication."
   },
   {
     "id": 18,
-    "question": "UI and Full Stack Developer",
-    "answer": "Ali is the UI and Full Stack Developer for NigedEase. He specializes in turning designs into intuitive interfaces and contributes across the stack, focusing on usability, accessibility, and visual consistency."
+    "title": "UI and Full Stack Developer",
+    "content": "Ali is the UI and Full Stack Developer for NigedEase. He specializes in turning designs into intuitive interfaces and contributes across the stack, focusing on usability, accessibility, and visual consistency."
   },
   {
     "id": 19,
-    "question": "Project Manager",
-    "answer": "Akrem manages the overall progress of NigedEase. He oversees timelines, organizes meetings, manages resources, and ensures effective communication between team members and stakeholders."
+    "title": "Project Manager",
+    "content": "Akrem manages the overall progress of NigedEase. He oversees timelines, organizes meetings, manages resources, and ensures effective communication between team members and stakeholders."
   },
   {
     "id": 20,
-    "question": "Support and Training",
-    "answer": "NigedEase offers dedicated support and training sessions for new users. Our team helps businesses onboard smoothly and understand the key features through hands-on guidance."
+    "title": "Support and Training",
+    "content": "NigedEase offers dedicated support and training sessions for new users. Our team helps businesses onboard smoothly and understand the key features through hands-on guidance."
   },
   {
     "id": 21,
-    "question": "Role-Based Access Control",
-    "answer": "NigedEase implements strict role-based access. Super Admins manage everything, Admins handle branches, Managers track team performance, and Employees have limited, task-specific access."
+    "title": "Role-Based Access Control",
+    "content": "NigedEase implements strict role-based access. Super Admins manage everything, Admins handle branches, Managers track team performance, and Employees have limited, task-specific access."
   },
   {
     "id": 22,
-    "question": "Future Plans",
-    "answer": "The team plans to add offline mode, deeper AI analytics, Amharic language support, and integration with mobile money systems like Telebirr to better serve local users."
+    "title": "Future Plans",
+    "content": "The team plans to add offline mode, deeper AI analytics, Amharic language support, and integration with mobile money systems like Telebirr to better serve local users."
   },
   {
     "id": 23,
-    "question": "How to Contact Support",
-    "answer": "For any questions or issues, you can reach out to our support team via email at [add actual email here]."
+    "title": "How to Contact Support",
+    "content": "For any questions or issues, you can reach out to our support team via email at [add actual email here]."
   },
   {
     "id": 24,
-    "question": "Feedback and Suggestions",
-    "answer": "We value your feedback! If you have suggestions for new features or improvements, please let us know through our feedback form on the website or contact support."
+    "title": "Feedback and Suggestions",
+    "content": "We value your feedback! If you have suggestions for new features or improvements, please let us know through our feedback form on the website or contact support."
   },
   {
     "id": 25,
-    "question": "System Requirements",
-    "answer": "NigedEase is a web-based application, so you need a modern web browser (like Chrome, Firefox, or Safari) and an internet connection. For the best experience, we recommend using a device with at least 2GB of RAM."
+    "title": "System Requirements",
+    "content": "NigedEase is a web-based application, so you need a modern web browser (like Chrome, Firefox, or Safari) and an internet connection. For the best experience, we recommend using a device with at least 2GB of RAM."
   },
   {
     "id": 26,
-    "question": "Data Backup and Recovery",
-    "answer": "NigedEase automatically backs up your data daily to ensure you never lose important information. In case of any issues, our support team can assist with data recovery."
+    "title": "Data Backup and Recovery",
+    "content": "NigedEase automatically backs up your data daily to ensure you never lose important information. In case of any issues, our support team can assist with data recovery."
   },
   {
     "id": 27,
-    "question": "Custom Features",
-    "answer": "If your business has specific needs, NigedEase can be customized. Contact our team to discuss your requirements, and we’ll explore how to best implement them."
+    "title": "Custom Features",
+    "content": "If your business has specific needs, NigedEase can be customized. Contact our team to discuss your requirements, and we’ll explore how to best implement them."
   },
   {
     "id": 28,
-    "question": "Community and Updates",
-    "answer": "Join our community forum to connect with other NigedEase users, share tips, and get the latest updates. We regularly post about new features, best practices, and industry news."
+    "title": "Community and Updates",
+    "content": "Join our community forum to connect with other NigedEase users, share tips, and get the latest updates. We regularly post about new features, best practices, and industry news."
   },
   {
     "id": 29,
-    "question": "Training Resources",
-    "answer": "NigedEase provides various training resources, including video tutorials, user guides, and live webinars. These resources help you and your team get the most out of the platform."
+    "title": "Training Resources",
+    "content": "NigedEase provides various training resources, including video tutorials, user guides, and live webinars. These resources help you and your team get the most out of the platform."
   },
   {
     "id": 30,
-    "question": "Advisor",
-    "answer": "Mr. Getnet is the official advisor for NigedEase. He provides guidance and expert insights to ensure the project aligns with academic and industry standards."
+    "title": "Advisor",
+    "content": "Mr. Getnet is the official advisor for NigedEase. He provides guidance and expert insights to ensure the project aligns with academic and industry standards."
   }
 ]
